@@ -92,12 +92,10 @@
 }
 
 .mais-localidades {
-  display: block;
   text-align: center;
   text-decoration: underline;
   color: #002946;
   font: 500 2rem "Roboto";
-  margin-bottom: 40px;
 }
 
 @media (max-width: 600px) {
@@ -105,15 +103,25 @@
     font-size: 1.5rem;
     margin-bottom: 8px;
   }
+
   .destinos-bg {
     padding-top: 16px;
     padding-bottom: 12px;
   }
 
   .mais-localidades {
-    width: 112px; 
-    margin: 6px auto;
+    font-size: 1.5rem;
   }
+}
+
+@media (max-width: 400px) {
+  .mais-localidades {
+    font-size: 1rem;
+  }
+}
+
+.duvidas-bg {
+  background-color: #121212;
 }
 
 .duvidas {
@@ -124,11 +132,16 @@
 .duvidas h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
+  color: #F7F7F7;
+}
+
+.duvidas p {
+  color: #E0E0E0;
 }
 
 .duvidas > p {
   max-width: 900px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-bottom: 60px;
 }
 

@@ -10,7 +10,7 @@ a {
 
 a:hover {
   transition: .3s;
-  color: #FFB800;
+  color: #13D8F3;
 }
 
 h1,
@@ -71,8 +71,11 @@ img {
     padding: 6px 12px;
     font-size: 0.7rem;
   }
-
-  .button:hover {
-    padding: 6px 12px
 }
+
+@media (max-width: 400px) {
+  .button {
+    padding: 5px 10px;
+    font-size: 0.6rem;
+  }
 }
