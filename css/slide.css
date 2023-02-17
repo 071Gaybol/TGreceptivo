@@ -1,0 +1,121 @@
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.mySlides img {
+  max-width: 1200px;
+  max-height: 520px;
+}
+
+@media(max-width: 600px) {
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+@media (max-width: 600px) {
+  .prev, .next {
+    font-size: 10px;
+    padding: 8px;
+  }
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.destino {
+  color: #030514;
+  font: 500 2rem "roboto";
+  padding: 8px 12px;
+  position: absolute;
+  top: 5px;
+  width: 100%;
+  z-index: 1;
+}
+
+.fundo {
+  position: absolute;
+  top: 12px;
+  width: 300px;
+  text-align: center;
+}
+
+.slide-button {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+
+@media(max-width: 600px){
+  .destino {
+    font-size: 1rem;
+    padding: 8px 12px;
+    top: -2px;
+  }
+  
+  .fundo {
+    top: 6px;
+    width: 150px;
+  }
+  
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #22B3B3;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #002946;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
