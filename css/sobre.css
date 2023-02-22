@@ -1,0 +1,16 @@
+.sobre h1 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-family: "poppins";
+}
+
+.sobre h2 {
+  margin-bottom: 14px;
+  font-family: "poppins";
+}
+
+.sobre p {
+  font: 500 1rem "roboto";
+  margin-bottom: 40px;
+}
+
