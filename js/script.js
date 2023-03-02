@@ -25,10 +25,12 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
+
 }
 
+
 // Perguntas frequentes 
-const perguntas = document.querySelectorAll(".perguntas button");
+/* const perguntas = document.querySelectorAll(".perguntas button");
 
 function ativarPergunta(event) {
   const pergunta = event.currentTarget;
@@ -44,4 +46,4 @@ function eventoPergunta(pergunta) {
   pergunta.addEventListener("click", ativarPergunta);
 }
 
-perguntas.forEach(eventoPergunta);
+perguntas.forEach(eventoPergunta); */
