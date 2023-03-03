@@ -1,3 +1,5 @@
+if(document.getElementById("existe")) {
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -23,14 +25,14 @@ function showSlides(n) {
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";
+  slides[slideIndex-1].style.display = " block";
   dots[slideIndex-1].className += " active";
 
 }
-
+}
 
 // Perguntas frequentes 
-/* const perguntas = document.querySelectorAll(".perguntas button");
+const perguntas = document.querySelectorAll(".perguntas button");
 
 function ativarPergunta(event) {
   const pergunta = event.currentTarget;
@@ -46,4 +48,4 @@ function eventoPergunta(pergunta) {
   pergunta.addEventListener("click", ativarPergunta);
 }
 
-perguntas.forEach(eventoPergunta); */
+perguntas.forEach(eventoPergunta);
