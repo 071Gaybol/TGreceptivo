@@ -58,6 +58,24 @@
   text-align: center;
 }
 
+.slide-saiba {
+  bottom: 8px;
+  left: 4px;
+  position: absolute;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font: 500 1rem "roboto";
+  gap: 8px;
+  color: #fff;
+}
+
+.slide-saiba-black {
+  background-color: #fff;
+  color: #000;
+}
+
 .slide-button {
   position: absolute;
   bottom: 8px;
