@@ -2,6 +2,7 @@
   font-weight: 700;
   font-family: "poppins";
   font-size: 1.2rem;
+  color: #000;
 }
 
 .servico-paragrafo {
@@ -12,6 +13,11 @@
 .button-servico {
   display: flex;
   justify-content: right;
+}
+
+.servico-paragrafo-saiba {
+  display: block;
+  font-weight: bold;
 }
 
 @media (max-width: 500px) {
