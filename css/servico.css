@@ -32,7 +32,20 @@
     margin-bottom: 24px;
   }
 
+  .servico ul {
+    font-size: 0.8rem;
+  }
+
   .bold {
     font-size: 0.8rem;
   }
+}
+
+.sobre-litoral p {
+  margin-bottom: 20px;
+}
+
+.sobre-litoral ul {
+  list-style: disc;
+  padding-left: 20px;
 }
