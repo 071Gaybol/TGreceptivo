@@ -49,3 +49,11 @@
   list-style: disc;
   padding-left: 20px;
 }
+
+.destaques {
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 20px;
+  list-style: disc;
+  padding-left: 20px  ;
+}
