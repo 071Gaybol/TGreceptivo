@@ -57,3 +57,19 @@
   list-style: disc;
   padding-left: 20px  ;
 }
+
+.fundo-morro {
+  width: 320px;
+}
+
+@media (max-width: 600px) {
+  .fundo-morro {
+    width: 160px;
+  }
+}
+
+@media (max-width: 400px) {
+  .fundo-morro {
+    width: 130px;
+  }
+}
